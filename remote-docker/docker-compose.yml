@@ -1,6 +1,6 @@
 version: '3.8'
 services:
   beanstalk-flask:
-    image: "alicegray33/cloud-world"
+    image: "cloud-world"
     ports:
-      - "80:5000"
+      - "80:80"
